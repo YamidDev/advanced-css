@@ -1,3 +1,6 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
 .one {
     display: flex;
     justify-content: space-between;
@@ -9,7 +12,8 @@
     background-color: greenyellow;
     padding: 20px;
     width: 200px;
-    height: 200px;
+    height: 150px;
+    box-shadow: 7px 7px darkgray;
 }
 
 #border-two {
@@ -17,9 +21,36 @@
     border: 2px solid blueviolet;
     padding: 20px;
     width: 200px;
-    height: 200px;
+    height: 150px;
+    box-shadow: 7px 7px darkgray;
 }
 
 #border-three {
     border-radius: 25px;
+    background-image: url('/img/fondo.jpg');
+    background-position: left top;
+    background-repeat: repeat;
+    width: 200px;
+    height: 150px;
+    padding: 20px;
+    box-shadow: 7px 7px darkgray;
+}
+
+#border-four {
+    border-radius: 15px 50px 30px 5px;
+    background-color: red;
+    width: 200px;
+    height: 150px;
+    padding: 20px;
+    box-shadow: 7px 7px darkgray;
+}
+
+#circular {
+    border-radius: 50%;
+    text-align: center;
+    background-color: gold;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    box-shadow: 7px 7px darkgray;
 }
