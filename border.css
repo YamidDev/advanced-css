@@ -1,0 +1,25 @@
+.one {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#border-one {
+    border-radius: 25px;
+    background-color: greenyellow;
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+#border-two {
+    border-radius: 25px;
+    border: 2px solid blueviolet;
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+#border-three {
+    border-radius: 25px;
+}
