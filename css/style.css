@@ -1,0 +1,10 @@
+#b {
+    border: 20px solid greenyellow;
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    padding: 20px;
+    background-color: brown;
+    color:bisque;
+    border-image: url('../img/marco.png') 120 stretch;
+}
