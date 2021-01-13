@@ -1,3 +1,7 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: bisque;
+}
 #b {
     border: 20px solid greenyellow;
     width: 250px;
@@ -7,4 +11,65 @@
     background-color: brown;
     color:bisque;
     border-image: url('../img/marco.png') 120 stretch;
+}
+
+#balls {
+    margin: auto;
+    padding: 25px;
+    border: 12px solid red;
+    width: 300px;
+    height: 280px;
+    background: url('https://assets.stickpng.com/images/580b585b2edbce24c47b2b84.png') top /100px no-repeat,
+    url('https://www.basketspirit.com/WebRoot/ce_es/Shops/268403/508E/B564/B461/1263/AE82/3EC1/CD0B/713D/nike_elite_airlock_ml.png') bottom /120px no-repeat,
+    url('../img/gato.png') bottom right /100px no-repeat,
+    url('../img/cesped.jpg') center/cover no-repeat;
+}
+
+#table {
+    margin: auto;
+    padding: 25px;
+    border: 12px solid red;
+    width: 300px;
+    height: 280px;
+    background: url('../img/plato.png') center /180px no-repeat,
+    url('../img/mesa.jpg') center/cover no-repeat;
+}
+
+#lorem {
+    margin: auto;
+    padding: 25px;
+    border: 12px solid red;
+    width: 300px;
+    height: 280px;
+    background-color: mediumaquamarine;
+    background-clip: content-box;
+    color: #fff;
+    text-align: justify;
+}
+
+#degrade {
+    margin: auto;
+    padding: 25px;
+    border: 2px solid;
+    width: 320px;
+    height: 300px;
+    background: linear-gradient(to bottom, yellow, blue, red);
+}
+#radial-degrade{
+    margin: auto;
+    padding: 25px;
+    border: 2px solid;
+    width: 320px;
+    height: 300px;
+    background: repeating-radial-gradient(circle , red, #e5c1bd 15%);
+}
+#linear-degrade{
+    margin: auto;
+    padding: 25px;
+    border: 2px solid;
+    width: 320px;
+    height: 300px;
+    background: url('https://www.pngkey.com/png/full/139-1398395_fc-barcelona-png-pic-logo-barcelona-png.png')
+    center/260px  no-repeat
+    ,repeating-linear-gradient(90deg, yellow, yellow 10px, red 10px, red 20px);
 }
